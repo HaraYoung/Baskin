@@ -1,0 +1,48 @@
+.menuArea {
+  max-height: 300px;
+  border-bottom: 1px solid #3f291a;
+  .menuWidth {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    .imgArea {
+      display: flex;
+      align-items: center;
+    //   img{
+    //       box-sizing: border-box;
+    //       flex-basis: 30%;
+
+    //   }
+
+    }
+    .textArea {
+      display: flex;
+      width: 100%;
+      margin-left: 1.5%;
+      div {
+        text-align: center;
+        padding: 0 30px;
+        a {
+            text-decoration: none;
+            color: #928883;
+        }
+      }
+      .menu {
+      }
+      .NI {
+          margin-left:1%;
+      }
+      .event {
+        margin-left:3.5%;
+      }
+      .store {
+        margin-left:-1%;
+
+      }
+      .about{
+        margin-left:1.5%;
+      }
+    }
+  }
+}

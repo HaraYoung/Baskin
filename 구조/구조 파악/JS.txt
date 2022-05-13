@@ -1,0 +1,17 @@
+Header-menu
+-Header nav hover시 menu가 아래로 스르륵 나타남
+-영역을 벗어날시 위로 스르륵 사라짐
+
+Search
+-아이콘 클릭시 나타남과 동시에 X아이콘으로 변경
+-나타남과 동시에 search영역 밑은 black,opacity: 0.5 적용
+-headr부분을 제외한곳과 X아이콘클릭시 search영역 사라짐과 동시에
+  search영역 밑은 black,opacity: 0.5 해제
+
+Main
+-라이브러리를 통해 구현
+
+BR-event
+-밑의 동그라미 버튼 클릭시 다른 영역이 나타나는 방향쪽으로 움직임
+-동그라미 버튼마다 지정된 영역이 있음으로 클릭하면 지정된 영역이 나타남
+-동그라미 버튼 hover시 이미지 바뀜

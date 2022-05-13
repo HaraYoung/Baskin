@@ -1,0 +1,33 @@
+Header
+div>div>div>div>img*5
+	  >div>img
+	  >div>(span*2)+img
+         >div>span*8 or img*8
+
+Header-menu
+div>div>(div>a>img)*2
+         >div>(p>a)*5
+         >div>(p>a)*3
+         >div>(p>a)*2
+         >div>(p>a)*3
+         >div>(p>a)*5
+
+
+Search
+div>>div>div>p>span+(select>option*8)+input
+                 >p+span+(img+span)*8
+           >div>p>span+input
+                 >p>p+span*6
+    >div>a
+
+
+Event-area
+div>img
+
+Main
+라이브러리를 이용해 구현
+그렇지 못할경우
+div>(div>img)*2
+    >div>img*11
+
+

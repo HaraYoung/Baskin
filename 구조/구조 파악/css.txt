@@ -1,0 +1,66 @@
+body
+- color: #483834;
+- font-size: 13px;
+- font-family: "Nanum Barun Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum", sans-serif;
+- line-height: 1.5;
+- letter-spacing: -.05em;
+
+Header
+- borderTop
+- border-bottom: 1px solid #e2d9d6
+-flex로 위치 잡기
+-backroundImg넣기
+-fixd로 위쪽에 고정
+
+Header-menu
+- flex로 가운데 정렬
+- 각 div여백주기
+- 두번째 이미지 천천히 나타나기
+- 전체에 transition
+-글자 hover시 color: #ff7c98;
+
+Search
+- 가운데 정렬
+- font-size14px
+- input
+    width: 100%;
+    height: 32px;
+    padding: 8px 1px 8px 10px;
+    border: 0;
+    background: #efefef;
+    font-size: 13px;
+    line-height: 16px;
+    box-sizing: border-box;
+- select
+    background: #fff;
+    border: 1px solid #d1cecc;
+    border-radius: 4px;
+    width: 128px;
+    color: #636363;
+    margin-right: 14px
+-해시태그
+    -핑크
+    color: #ff7c98;
+    margin-right: 6px;
+     -제목
+    color: #9c9c9c;
+    margin-right: 10px;
+
+
+Main
+- backgroundimg 넣기
+
+BR-event
+-flex로 정렬
+-title
+    padding: 100px 0 50px;
+    text-align: center;
+-첫번째 p
+    color: #2f231c;
+    font-size: 17px;
+    line-height: 23px;
+-두번째 p
+    margin: 11px 0;
+    font-weight: 300;
+    color: #948780;
+-동그라미 버튼 hover시 이미지 바뀜
