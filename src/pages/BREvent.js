@@ -36,7 +36,7 @@ const BREvent = () => {
         pagination={{
           clickable: true,
         }}
-        slidesPerView={4}
+        slidesPerView={1}
         modules={[Pagination]}
         className="mySwiper"
       >
@@ -47,47 +47,42 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
               <img src={BM} alt="" />
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
               <img src={YGY} alt="" />
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
               <img src={Kakao} alt="" />
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
@@ -95,43 +90,37 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={OnlineText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
               <img src={BR} alt="" />
             </div>
             <div className="BRTextArea">
               <img src={OnlineText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
               <img src={COLD} alt="" />
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
               <img src={KT} alt="" />
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -143,43 +132,37 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
               <img src={Card} alt="" />
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
               <img src={Hangul} alt="" />
             </div>
             <div className="BRTextArea">
               <img src={OnlineText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="BRSlideArea">
             <div className="BRImg">
               <img src={CUP} alt="" />
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -191,7 +174,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
