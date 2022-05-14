@@ -1,0 +1,42 @@
+.BRArea{
+    height: 721px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    .BRTitle {
+
+      img{
+      }
+    }
+    .BRSlideArea{
+        width: 100%;
+        .BRImg{
+            padding:5px 0;
+            img{
+              height: 288px;
+              width:288px;
+            }
+        }
+    }
+    .BRTextArea{
+        text-align: left;
+        img{
+            width:114px;
+            height: 22px;
+        }
+    }
+
+    .swiper-pagination-bullet {
+        background: #cdccd5; ; 
+        width:10px;
+        height:10px;
+       }
+   .swiper-pagination-bullet-active {
+        background: #301d17 !important; 
+        width:10px;
+        height:10px;
+       }
+   
+}
