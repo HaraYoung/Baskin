@@ -3,14 +3,13 @@ import Header from './pages/Header';
 import MainEvent from './pages/MainEvent';
 import Main from './pages/Main';
 import BREvent from './pages/BREvent';
+import Search  from './pages/Search';
 
 function App() {
   return (
     <div>
-      <Header/>
-      <MainEvent/>
-      <Main/>
-      <BREvent/>
+      <Search/>
+
     </div>
   );
 }
