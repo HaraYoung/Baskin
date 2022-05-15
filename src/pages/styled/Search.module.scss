@@ -1,44 +1,114 @@
-.SearchArea{
-    border-top: 1px solid red;
-    width: 100%;
-    .TextArea{
+.SearchArea {
+  width: 1200px;
+  margin: auto;
+  padding: 25px 0px;
+  .TextArea {
+    display: flex;
+    justify-content: center;
+    input {
+      width: 100%;
+      height: 32px;
+      padding: 8px 1px 8px 10px;
+      border: 0;
+      background: #efefef;
+      font-size: 13px;
+      line-height: 16px;
+      box-sizing: border-box;
+    }
+    .spanTitle {
+      font-size: 13px;
+      color: #2f231c;
+      margin: 0 15px;
+      width: 30%;
+      letter-spacing: -0.1em;
+      font-weight: 500;
+      &:last-child {
         display: flex;
-        justify-content:center;
-        input{
-            width: 100%;
-            height: 32px;
-            padding: 8px 1px 8px 10px;
-            border: 0;
-            background: #efefef;
-            font-size: 13px;
-            line-height: 16px;
-            box-sizing: border-box;
-        }
-        .searchForm{
-            margin-right: 5%;
-            p{
-                display: flex;
-            }
-            select{
-                background: #fff;
-                border: 1px solid #d1cecc;
-                border-radius: 4px;
-                width: 128px;
-                color: #636363;
-                margin-right: 14px
-            }
-        }   
-        .TagForm{
+      }
+    }
+    .checkArea {
+      .oneCheck{
+        border: 1px solid red;
+        width: 20%;
+        cursor: pointer;
+        margin-right: 5px;
 
+      }
+      span {
+        border: 1px solid red;
+
+        .boxImg{
+          position: relative;
+        border: 1px solid red;
+        float: left;
+
+
+
+          .Pinkcheck{
+              position: absolute;
+            top:35%;
+            left: 30%;
+          }
         }
-    }
-    .buttonArea{
-        text-align: center;
-        a{
-            color: white;
-            padding: 5px 20px;
-            background-color: #ff7c98;
-            text-decoration: none;
+        img {
+          margin-right: 5px;
         }
+      }
     }
+  }
+  .searchForm {
+    margin-right: 5%;
+    padding-right: 20px;
+    width: 50%;
+    p {
+      display: flex;
+      padding: 10px;
+    }
+    select {
+      background: #fff;
+      border: 1px solid #d1cecc;
+      border-radius: 4px;
+      width: 128px;
+      color: #636363;
+      margin-right: 14px;
+    }
+  }
+  .TagForm {
+    width: 50%;
+    padding-top:1%;
+    .tagTitle {
+      display: flex;
+    }
+    .oftenTag {
+      padding: 0 10px;
+      letter-spacing: -0.1em;
+      p {
+        color: #9c9c9c;
+        font-size: 13px;
+        margin-bottom: 3px;
+      font-weight: 500;
+
+      }
+      span {
+        font-size: 13px;
+        color: #ff7c98;
+        margin-right: 6px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.buttonArea {
+  text-align: center;
+  padding:1%;
+  a {
+    background: #ff7c98;
+    color: #fff;
+    font-size: 15px;
+    line-height: 37px;
+    border-radius: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 55px;
+  }
 }

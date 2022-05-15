@@ -15,10 +15,11 @@ body {
   border-bottom: 1px solid #3f291a;
   scroll-padding-top: 20px;
   position: relative;
+  
   .headerWidth {
     display: flex;
     justify-content: space-around;
-    padding-top:1.5%;
+    padding-top: 1.5%;
     width: 80%;
     margin: auto;
     .snsArea {
@@ -26,6 +27,8 @@ body {
       align-items: center;
       img {
         margin: 5px;
+        cursor: pointer;
+
       }
     }
     .etc {
@@ -35,9 +38,13 @@ body {
         letter-spacing: -1px;
         font-size: 11px;
         padding: 0 10px;
+        cursor: pointer;
+
       }
       img {
         padding: 0 10px;
+        cursor: pointer;
+
       }
     }
   }
@@ -46,21 +53,21 @@ body {
   margin-top: 1.5%;
   border-top: 1px solid #e2d9d6;
   max-height: 46px;
-  
+
   .navMenu {
     display: flex;
     justify-content: center;
-      .member {
-          display: flex;
-          span{
-            display: block;
-            height: 46px;
-            text-indent: -9999em;
-            line-height: 46px;
-            background: url(../../image/header/gnb_menu.png) no-repeat;
-            margin: 0 20px;
-            padding-right: 5px;
-          }
+    .member {
+      display: flex;
+      span {
+        display: block;
+        height: 46px;
+        text-indent: -9999em;
+        line-height: 46px;
+        background: url(../../image/header/gnb_menu.png) no-repeat;
+        margin: 0 20px;
+        padding-right: 5px;
+      }
       .login {
         width: 35px;
         background-position: 0px -1px;
@@ -71,18 +78,18 @@ body {
       }
     }
     .menuNavArea {
-        display: flex;
-        
-        span{
-            display: block;
-            background: url(../../image/header/gnb_menu.png) no-repeat;
-            height: 46px;
-            text-indent: -9999em;
-            line-height: 46px;
-            margin:0 10px;
-            padding: 0 30px;
+      display: flex;
 
-        }
+      span {
+        display: block;
+        background: url(../../image/header/gnb_menu.png) no-repeat;
+        height: 46px;
+        text-indent: -9999em;
+        line-height: 46px;
+        margin: 0 10px;
+        padding: 0 30px;
+        cursor: pointer;
+      }
       .flavor {
         width: 164px;
         background-position: -133px -3px;
