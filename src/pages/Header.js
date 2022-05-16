@@ -45,6 +45,9 @@ const Header = () => {
   //nav메뉴 영역 상태값
   const [menuOfen,setMenuOfen]= React.useState(false);
   //hover이벤트 정의
+  if(formOfen === true && menuOfen === true){
+    setMenuOfen(false);
+  }
   const onMouseOver= (e)=>{
     setMenuOfen(!menuOfen);
   }
@@ -95,7 +98,6 @@ const Header = () => {
       {menuOfen && (<HeaderMenu ref={navMenu}/>)}
      {formOfen && (<SearchForm ref={searchForm}/>)}
      <div>
-     {formOfen && (<BGSearch ref={searchForm} />)}
      </div>
     </div>
   );

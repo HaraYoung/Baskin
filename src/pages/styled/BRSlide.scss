@@ -1,16 +1,19 @@
 .BRArea {
-    width: 100%;
+    width:90%;
     text-align: center;
     padding: 3% 0;
+    margin:auto;
     .mySwiper{
-        padding: 3% 0;
+        padding: 3% 5%;
         width: 100%;
     }
     .BRSlideArea {
+      max-width:288px;
     height: 465px;
     cursor: pointer;
     float: left;
     padding: 0 10px;
+
     .BRImg {
       img {
         height: 288px;
@@ -35,8 +38,6 @@
         line-height: 23px;
         font-weight: bold;
         letter-spacing: -3.5px;
-        border: 1px solid red;
-
       }
     }
     &::after{
@@ -51,7 +52,8 @@
     background: #cdccd5;
     width: 10px;
     height: 10px;
-    margin-right:15px;
+    margin-right:1%;
+    
   }
   .swiper-pagination-bullet-active {
     background: #301d17 !important;
