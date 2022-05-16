@@ -1,3 +1,9 @@
+/**
+* @filename HeaderMenu.js
+* @description Header 안의 nav메뉴 영역
+* @author: 박세영 (qkrtpdud9899@gmail.com)
+*/
+
 import React from "react";
 import { NavLink } from "react-router-dom";
 import headerMenuStyled from "./styled/HeaderMenu.module.scss";

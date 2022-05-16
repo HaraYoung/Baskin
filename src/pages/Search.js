@@ -1,3 +1,9 @@
+/**
+* @filename Search.js
+* @description Header 안의 Search영역- Header의 아이콘 클릭시 나타나는 영역
+* @author: 박세영 (qkrtpdud9899@gmail.com)
+*/
+
 import React from "react";
 import { NavLink } from "react-router-dom";
 

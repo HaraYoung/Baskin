@@ -1,3 +1,9 @@
+/**
+* @filename Header.js
+* @description 전체 Header영역-검색 영역과 nav메뉴 포함
+* @author: 박세영 (qkrtpdud9899@gmail.com)
+*/
+
 import React from "react";
 import styled from 'styled-components';
 
@@ -34,7 +40,6 @@ const Header = () => {
   const onMouseClick= (e)=>{
     setformOfen(!formOfen);
   }
-
   //nav메뉴영역 참조
   const navMenu= React.useRef();
   //nav메뉴 영역 상태값
@@ -86,8 +91,9 @@ const Header = () => {
           </div>
         </div>
       </div>
+      {/*SearchForm 열려있을경우 HederMenu 비활성화*/}
       {menuOfen && (<HeaderMenu ref={navMenu}/>)}
-     {formOfen && (<SearchForm ref={searchForm} />)}
+     {formOfen && (<SearchForm ref={searchForm}/>)}
      <div>
      {formOfen && (<BGSearch ref={searchForm} />)}
      </div>

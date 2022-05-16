@@ -1,3 +1,8 @@
+/**
+* @filename Main.js
+* @description Main 슬라이더 영역- swiper 라이브러리를 이용하여 슬라이더 구현
+* @author: 박세영 (qkrtpdud9899@gmail.com)
+*/
 
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';

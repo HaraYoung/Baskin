@@ -1,3 +1,9 @@
+/**
+* @filename BREvent.js
+* @description BREvent영역- swiper 라이브러리를 이용하여 슬라이드 구현
+* @author: 박세영 (qkrtpdud9899@gmail.com)
+*/
+
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
