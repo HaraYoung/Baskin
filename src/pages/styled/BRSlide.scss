@@ -2,10 +2,6 @@
     width: 100%;
     text-align: center;
     padding: 3% 0;
-    .BRTitle {
-        img {
-        }
-    }
     .mySwiper{
         padding: 3% 0;
         width: 100%;
@@ -39,6 +35,8 @@
         line-height: 23px;
         font-weight: bold;
         letter-spacing: -3.5px;
+        border: 1px solid red;
+
       }
     }
     &::after{

@@ -39,12 +39,10 @@ body {
         font-size: 11px;
         padding: 0 10px;
         cursor: pointer;
-
       }
       img {
         padding: 0 10px;
         cursor: pointer;
-
       }
     }
   }
@@ -53,7 +51,6 @@ body {
   margin-top: 1.5%;
   border-top: 1px solid #e2d9d6;
   max-height: 46px;
-
   .navMenu {
     display: flex;
     justify-content: center;
@@ -79,7 +76,6 @@ body {
     }
     .menuNavArea {
       display: flex;
-
       span {
         display: block;
         background: url(../../image/header/gnb_menu.png) no-repeat;

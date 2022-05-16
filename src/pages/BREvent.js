@@ -57,7 +57,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>배달의 민족에서 빠르게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -67,7 +67,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>요기요에서 손쉽게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -77,7 +77,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>카카오톡 주문하기에서 편리하게 주문하세요!</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -90,7 +90,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={OnlineText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>기아 멤버스 최대 50% 제휴 혜택</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -100,7 +100,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={OnlineText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>2022 배스킨라빈스 특별한 제휴혜택</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -110,7 +110,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>고소한 오트밀크와 깔끔한 콜드브루의 만남,콜드브루 오트라떼 출시!</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -120,7 +120,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>KT멤버십 고객이라면 누구나 파인트30%할인!</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -132,7 +132,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>현대카드 M포인트 50% 사용</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -142,7 +142,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>제휴 할인 카드 혜택 안내</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -152,7 +152,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={OnlineText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>2018한글날 기념 무료 글꼴 공개! 배스킨라빈스체</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -162,7 +162,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>1회용 컵 사용 줄이기 안내</p>
               <p>상시진행</p>
             </div>
           </div>
@@ -174,7 +174,7 @@ const BREvent = () => {
             </div>
             <div className="BRTextArea">
               <img src={StoreText} alt="" />
-              <p className='FirstP'>해피 오더 딜리버리로 간편하게 주문하세요!</p>
+              <p className='FirstP'>2022년 1분기 고객 BEST 칭찬점포 안내</p>
               <p>상시진행</p>
             </div>
           </div>

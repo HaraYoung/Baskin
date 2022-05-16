@@ -1,7 +1,9 @@
 .SearchArea {
+  position: relative;
   width: 1200px;
   margin: auto;
   padding: 25px 0px;
+  z-index:5;
   .TextArea {
     display: flex;
     justify-content: center;
@@ -18,7 +20,6 @@
     .spanTitle {
       font-size: 13px;
       color: #2f231c;
-      margin: 0 15px;
       width: 30%;
       letter-spacing: -0.1em;
       font-weight: 500;
@@ -27,23 +28,17 @@
       }
     }
     .checkArea {
+      width: 100%;
       .oneCheck{
-        border: 1px solid red;
-        width: 20%;
         cursor: pointer;
-        margin-right: 5px;
-
+        width: 24%;
       }
       span {
-        border: 1px solid red;
-
+        float: left;
+        width: 50%;
         .boxImg{
           position: relative;
-        border: 1px solid red;
         float: left;
-
-
-
           .Pinkcheck{
               position: absolute;
             top:35%;
