@@ -44,58 +44,58 @@ const Search = () => {
           <p>
             <span className={SearchStyled.spanTitle}>알레르기 성분</span>
             <div className={SearchStyled.checkArea}>
-              <span className={SearchStyled.oneCheck}>
+              <span className={SearchStyled.oneCheck} ref={checkRef}  onClick={onClickCheck}>
                 <div className={SearchStyled.boxImg}>
-                <img src={NIBox} alt="" ref={checkRef}  onClick={onClickCheck}/>
+                <img src={NIBox} alt=""/>
                   {checkState && <img src={NIBoxCheck} alt='check' className={SearchStyled.Pinkcheck}/>}
                 </div>
                 <span>계란</span>
               </span>
-              <span className={SearchStyled.oneCheck}>
+              <span className={SearchStyled.oneCheck}  ref={checkRef}  onClick={onClickCheck}>
               <div className={SearchStyled.boxImg}>
-                <img src={NIBox} alt="" ref={checkRef}  onClick={onClickCheck}/>
+                <img src={NIBox} alt=""/>
                   {checkState && <img src={NIBoxCheck} alt='check' className={SearchStyled.Pinkcheck}/>}
                 </div>
                 <span>대두</span>
               </span>
-              <span className={SearchStyled.oneCheck}>
+              <span className={SearchStyled.oneCheck}  ref={checkRef}  onClick={onClickCheck}>
               <div className={SearchStyled.boxImg}>
-                <img src={NIBox} alt="" ref={checkRef}  onClick={onClickCheck}/>
+                <img src={NIBox} alt=""/>
                   {checkState && <img src={NIBoxCheck} alt='check' className={SearchStyled.Pinkcheck}/>}
                 </div>
                 <span>돼지고기</span>
               </span>
-              <span className={SearchStyled.oneCheck}>
+              <span className={SearchStyled.oneCheck}  ref={checkRef}  onClick={onClickCheck}>
               <div className={SearchStyled.boxImg}>
-                <img src={NIBox} alt="" ref={checkRef}  onClick={onClickCheck}/>
+                <img src={NIBox} alt=""/>
                   {checkState && <img src={NIBoxCheck} alt='check' className={SearchStyled.Pinkcheck}/>}
                 </div>
                 <span>땅콩</span>
               </span>
-              <span className={SearchStyled.oneCheck}>
+              <span className={SearchStyled.oneCheck}  ref={checkRef}  onClick={onClickCheck}>
               <div className={SearchStyled.boxImg}>
-                <img src={NIBox} alt="" ref={checkRef}  onClick={onClickCheck}/>
+                <img src={NIBox} alt=""/>
                   {checkState && <img src={NIBoxCheck} alt='check' className={SearchStyled.Pinkcheck}/>}
                 </div>
                 <span>밀</span>
                 </span>
-              <span className={SearchStyled.oneCheck}>
+              <span className={SearchStyled.oneCheck}  ref={checkRef}  onClick={onClickCheck}>
               <div className={SearchStyled.boxImg}>
-                <img src={NIBox} alt="" ref={checkRef}  onClick={onClickCheck}/>
+                <img src={NIBox} alt=""/>
                   {checkState && <img src={NIBoxCheck} alt='check' className={SearchStyled.Pinkcheck}/>}
                 </div>
                 <span>복숭아</span>
               </span>
-              <span className={SearchStyled.oneCheck}>
+              <span className={SearchStyled.oneCheck}  ref={checkRef}  onClick={onClickCheck}>
               <div className={SearchStyled.boxImg}>
-                <img src={NIBox} alt="" ref={checkRef}  onClick={onClickCheck}/>
+                <img src={NIBox} alt=""/>
                   {checkState && <img src={NIBoxCheck} alt='check' className={SearchStyled.Pinkcheck}/>}
                 </div>
                 <span>우유</span>
               </span>
-              <span className={SearchStyled.oneCheck}>
+              <span className={SearchStyled.oneCheck} ref={checkRef}  onClick={onClickCheck}>
               <div className={SearchStyled.boxImg}>
-                <img src={NIBox} alt="" ref={checkRef}  onClick={onClickCheck}/>
+                <img src={NIBox} alt=""/>
                   {checkState && <img src={NIBoxCheck} alt='check' className={SearchStyled.Pinkcheck}/>}
                 </div>
                 <span>없음</span>
