@@ -1,8 +1,8 @@
 /**
-* @filename HeaderMenu.js
-* @description Header 안의 nav메뉴 영역
-* @author: 박세영 (qkrtpdud9899@gmail.com)
-*/
+ * @filename HeaderMenu.js
+ * @description Header 안의 nav메뉴 영역
+ * @author: 박세영 (qkrtpdud9899@gmail.com)
+ */
 
 import React from "react";
 import { NavLink } from "react-router-dom";
@@ -36,7 +36,7 @@ const HeaderMenu = () => {
               <NavLink to="#">디저트</NavLink>
             </p>
           </div>
-          <div className={headerMenuStyled.NI}>
+          <div>
             <p>
               <NavLink to="#">아이스크림</NavLink>
             </p>

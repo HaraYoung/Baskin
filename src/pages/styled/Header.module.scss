@@ -1,12 +1,18 @@
-body {
+body{
   padding: 0;
   margin: 0;
+  height: 100%;
+}
+  html {
   color: #483834;
   font-size: 13px;
   font-family: "Nanum Barun Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum",
     sans-serif;
   line-height: 1.5;
   letter-spacing: -0.05em;
+  min-width: 1200px;
+  width: 100%;
+  margin:0  auto;
 }
 .headerArea {
   background: url("../../image/header/bg_header.gif") 50% 0 repeat-x;

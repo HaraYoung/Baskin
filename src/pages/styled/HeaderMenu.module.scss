@@ -1,42 +1,40 @@
 .menuArea {
   max-height: 300px;
   border-bottom: 1px solid #3f291a;
+  width: 100%;
   .menuWidth {
-    width: 80%;
     display: flex;
-    align-items: center;
-    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
     .imgArea {
+      width: 30%;
       display: flex;
       align-items: center;
+      margin-left: -10rem;
     }
     .textArea {
+      padding-left: 1rem;
       display: flex;
-      width: 100%;
-      margin-left: 1.5%;
+      justify-content: space-around;
+      width: 44%;
       div {
         text-align: center;
-        padding: 0 30px;
         a {
-            text-decoration: none;
-            color: #928883;
-            &:hover {
-              color:#ff7c98;
-            }
+          text-decoration: none;
+          color: #928883;
+          &:hover {
+            color: #ff7c98;
+          }
         }
       }
-      .NI {
-          margin-left:1%;
-      }
       .event {
-        margin-left:3.5%;
+        padding-left: 1.2rem;
       }
       .store {
-        margin-left:-1%;
-
+        padding-right: 1rem;
       }
-      .about{
-        margin-left:1.5%;
+      .about {
+        padding-right: 1rem;
       }
     }
   }

@@ -1,20 +1,24 @@
 .BRArea {
-    width:90%;
-    text-align: center;
-    padding: 3% 0;
-    margin:auto;
-    .mySwiper{
-        padding: 3% 5%;
-        width: 100%;
+  width: 1200px;
+  text-align: center;
+  padding: 0;
+  .aaa{
+    margin: 0 auto;
+  }
+  .mySwiper {
+    width: 90%;
+  }
+  .BRSlideArea {
+    &:first-child{
+      margin-left:9rem;
     }
-    .BRSlideArea {
-      max-width:288px;
+    width: 288px;
     height: 465px;
     cursor: pointer;
     float: left;
-    padding: 0 10px;
-
+    margin: 2em 1em;
     .BRImg {
+      text-align: center;
       img {
         height: 288px;
         width: 288px;
@@ -40,11 +44,11 @@
         letter-spacing: -3.5px;
       }
     }
-    &::after{
-        content: '';
-        clear: both;
-        float: none;
-        display: block;
+    &::after {
+      content: "";
+      clear: both;
+      float: none;
+      display: block;
     }
   }
 
@@ -52,8 +56,7 @@
     background: #cdccd5;
     width: 10px;
     height: 10px;
-    margin-right:1%;
-    
+    margin-right: 1%;
   }
   .swiper-pagination-bullet-active {
     background: #301d17 !important;
